@@ -1075,10 +1075,10 @@
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/refint/ECommerce.Client.dll
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/ECommerce.Client.pdb
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/ref/ECommerce.Client.dll
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.lsoupw0og5.pdb
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.wxsdhogbwo.wasm
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.lsoupw0og5.pdb.gz
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.wxsdhogbwo.wasm.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/wu50sah2vj-wxsdhogbwo.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/uusq7hexju-lsoupw0og5.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/suad93v01y-6x2u3n9ktk.gz
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.3m10dbquka.pdb
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.sbg1i6ocja.wasm
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.3m10dbquka.pdb.gz
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.sbg1i6ocja.wasm.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/wu50sah2vj-sbg1i6ocja.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/uusq7hexju-3m10dbquka.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/suad93v01y-7762b1o2ow.gz
