@@ -1,0 +1,37 @@
+<aside class="nav-menu">
+    <nav>
+        <ul>
+            <li>
+                <NavLink href="/" Match="NavLinkMatch.All">
+                    Home
+                </NavLink>
+            </li>
+            <li>
+                <NavLink href="/products">
+                    Products
+                </NavLink>
+            </li>
+            <li>
+                <NavLink href="/about">
+                    About
+                </NavLink>
+            </li>
+        </ul>
+    </nav>
+</aside>
+
+@* Optional: Add a little CSS to style it *@
+<style>
+.nav-menu {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.nav-menu li {
+    margin-bottom: 10px;
+}
+</style>

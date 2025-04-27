@@ -1,16 +1,19 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
 
+<div class="main-layout">
+    <NavMenu /> @* <--- here's your menu *@
+    
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
+        @Body @* <- this is where the page (Index, Products, etc) gets rendered *@
     </main>
 </div>
+
+<style>
+.main-layout {
+    display: flex;
+}
+main {
+    flex-grow: 1;
+    padding: 1rem;
+}
+</style>
