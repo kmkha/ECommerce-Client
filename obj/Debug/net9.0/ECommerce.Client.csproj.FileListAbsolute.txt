@@ -6,8 +6,6 @@
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.3c4wvb350q.wasm
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.cymp1amu5g.js
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.js.map
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.171m6oahty.pdb
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.3s3d03qkc9.wasm
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
@@ -380,14 +378,12 @@
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.vwqkwew761.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Web.w17gl81o43.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Diagnostics.TextWriterTraceListener.602loys7ab.wasm.gz
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.171m6oahty.pdb.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.VisualBasic.yffsxgg1pj.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.VisualBasic.Core.rov4p20cgi.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XDocument.c58f4n7gkk.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Formats.Asn1.cb1si9997c.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Overlapped.7e0yhag6uc.wasm.gz
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.3s3d03qkc9.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Diagnostics.StackTrace.ag0d9lxhtn.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/System.Net.Http.Json.2p5w4oxe0m.wasm.gz
 /Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileSystemGlobbing.049i7yetdr.wasm.gz
@@ -1065,9 +1061,6 @@
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/7zswo1a2go-tjcz0u77k5.gz
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/yu43ywfh1q-tptq2av103.gz
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/e9x62ohopx-lfu7j35m59.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/wu50sah2vj-3s3d03qkc9.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/uusq7hexju-171m6oahty.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/suad93v01y-k6hgv1xh89.gz
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/staticwebassets.build.json
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/staticwebassets.development.json
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -1082,3 +1075,10 @@
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/refint/ECommerce.Client.dll
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/ECommerce.Client.pdb
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/ref/ECommerce.Client.dll
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.lsoupw0og5.pdb
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.wxsdhogbwo.wasm
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.lsoupw0og5.pdb.gz
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.wxsdhogbwo.wasm.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/wu50sah2vj-wxsdhogbwo.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/uusq7hexju-lsoupw0og5.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/suad93v01y-6x2u3n9ktk.gz
