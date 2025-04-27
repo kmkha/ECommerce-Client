@@ -1,0 +1,31 @@
+@page "/"
+@using ECommerce.Client.Models
+@inject HttpClient Http
+
+<h1>Products</h1>
+
+@if (products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>
+                <strong>@product.Name</strong> - $@product.Price <br />
+                <small>@product.Description</small>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Product>? products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<List<Product>>("http://localhost:5086/api/products");
+    }
+}
