@@ -811,7 +811,6 @@
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/scopedcss/projectbundle/ECommerce.Client.bundle.scp.css
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/blazor.build.boot-extension.json
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/blazor.boot.json
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/imvtlg7nzo-8rbvw3on5j.gz
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/x4m6c189as-buwaq3rjpg.gz
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/pel3glrtrv-bqjiyaj88i.gz
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/065spv3mzi-c2jlpeoesf.gz
@@ -1075,10 +1074,11 @@
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/refint/ECommerce.Client.dll
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/ECommerce.Client.pdb
 /Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/ref/ECommerce.Client.dll
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.k9fgephai7.pdb
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.yq8gyq4olg.wasm
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.k9fgephai7.pdb.gz
-/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.yq8gyq4olg.wasm.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/wu50sah2vj-yq8gyq4olg.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/uusq7hexju-k9fgephai7.gz
-/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/suad93v01y-p2om6u5xyn.gz
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.7pivhen8ez.pdb
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.e7grzhsv56.wasm
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.7pivhen8ez.pdb.gz
+/Users/kennykha/Dev/ECommerce.Client/bin/Debug/net9.0/wwwroot/_framework/ECommerce.Client.e7grzhsv56.wasm.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/imvtlg7nzo-1h1wdhcmez.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/wu50sah2vj-e7grzhsv56.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/uusq7hexju-7pivhen8ez.gz
+/Users/kennykha/Dev/ECommerce.Client/obj/Debug/net9.0/compressed/suad93v01y-nsz3p1hy1l.gz

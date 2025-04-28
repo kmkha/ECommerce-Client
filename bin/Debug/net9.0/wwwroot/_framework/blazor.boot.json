@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ECommerce.Client",
   "resources": {
-    "hash": "sha256-cqKvxx8d2FUbZdk+t4BYvzv89XdO5wXvJ8/5xkB1X1o=",
+    "hash": "sha256-HppvK7n3mc7QJCQzIiUnMATXsbMS7k1iXhcEwGHeEj0=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "ECommerce.Client.yq8gyq4olg.wasm": "ECommerce.Client.wasm",
-      "ECommerce.Client.k9fgephai7.pdb": "ECommerce.Client.pdb"
+      "ECommerce.Client.e7grzhsv56.wasm": "ECommerce.Client.wasm",
+      "ECommerce.Client.7pivhen8ez.pdb": "ECommerce.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -412,10 +412,10 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "ECommerce.Client.yq8gyq4olg.wasm": "sha256-Str+R5l388Zy6cyx7ND3ZeCymgxL6BPgkVg3JrFVRGY="
+      "ECommerce.Client.e7grzhsv56.wasm": "sha256-yvFlzKd6ip4EYE8o5CBe+8kgwHZo8q1p37CZdr2bQ6o="
     },
     "pdb": {
-      "ECommerce.Client.k9fgephai7.pdb": "sha256-SBO5x1IZzQsRUfR5GG74qEnncCLi8YrvpIcKiN7cSQE="
+      "ECommerce.Client.7pivhen8ez.pdb": "sha256-a4mFxhC0jmIEVNU64p/pvHwTDhjivcllNHCsAwnhgh0="
     }
   },
   "cacheBootResources": true,
