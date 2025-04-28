@@ -17,5 +17,11 @@ namespace ECommerce.Client.Services
             var products = await _httpClient.GetFromJsonAsync<List<Product>>("api/products");
             return products ?? new List<Product>();
         }
+
+        public async Task AddProductAsync(Product newProduct)
+        {
+            var response = await _httpClient.PostAsJsonAsync("api/products", newProduct);
+            response.EnsureSuccessStatusCode();
+        }
     }
 }
