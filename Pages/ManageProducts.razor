@@ -1,0 +1,115 @@
+@using ECommerce.Client.Services
+@using ECommerce.Client.Models
+
+@page "/manage-products"
+@inject ProductService ProductService
+@inject NavigationManager NavigationManager
+
+<h3>Manage Products</h3>
+
+<!-- Create Form -->
+<EditForm Model="newProduct" OnValidSubmit="AddProduct">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <input type="text" @bind="newProduct.Name" placeholder="Name" />
+    <input type="text" @bind="newProduct.Description" placeholder="Description" />
+    <input type="number" @bind="newProduct.Price" placeholder="Price" />
+    <input type="text" @bind="newProduct.ImageUrl" placeholder="Image URL" />
+
+    <button type="submit">Add Product</button>
+</EditForm>
+
+<hr />
+
+<!-- Product List -->
+<table>
+    <thead>
+        <tr>
+            <th>Name</th><th>Price</th><th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in products)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price.ToString("C")</td>
+                <td>
+                    <button @onclick="() => EditProduct(product)">Edit</button>
+                    <button @onclick="() => DeleteProduct(product.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (editProduct != null)
+{
+    <hr />
+    <h4>Edit Product</h4>
+
+    <EditForm Model="editProduct" OnValidSubmit="UpdateProduct">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <input type="text" @bind="editProduct.Name" />
+        <input type="text" @bind="editProduct.Description" />
+        <input type="number" @bind="editProduct.Price" />
+        <input type="text" @bind="editProduct.ImageUrl" />
+
+        <button type="submit">Save Changes</button>
+        <button @onclick="CancelEdit">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    private List<Product> products = new();
+    private Product newProduct = new();
+    private Product? editProduct = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.GetProductsAsync();
+    }
+
+    private async Task AddProduct()
+    {
+        await ProductService.AddProductAsync(newProduct);
+        products = await ProductService.GetProductsAsync();
+        newProduct = new(); // clear form
+    }
+
+    private void EditProduct(Product product)
+    {
+        editProduct = new Product
+        {
+            Id = product.Id,
+            Name = product.Name,
+            Description = product.Description,
+            Price = product.Price,
+            ImageUrl = product.ImageUrl
+        };
+    }
+
+    private async Task UpdateProduct()
+    {
+        if (editProduct != null)
+        {
+            await ProductService.UpdateProductAsync(editProduct);
+            products = await ProductService.GetProductsAsync();
+            editProduct = null;
+        }
+    }
+
+    private async Task DeleteProduct(int id)
+    {
+        await ProductService.DeleteProductAsync(id);
+        products = await ProductService.GetProductsAsync();
+    }
+
+    private void CancelEdit()
+    {
+        editProduct = null;
+    }
+}
