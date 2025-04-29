@@ -14,7 +14,7 @@
 
     <input type="text" @bind="newProduct.Name" placeholder="Name" />
     <input type="text" @bind="newProduct.Description" placeholder="Description" />
-    <input type="number" @bind="newProduct.Price" placeholder="Price" />
+    <InputNumber @bind-Value="newProduct.Price" placeholder="Price" />
     <input type="text" @bind="newProduct.ImageUrl" placeholder="Image URL" />
 
     <button type="submit">Add Product</button>
@@ -55,7 +55,7 @@
 
         <input type="text" @bind="editProduct.Name" />
         <input type="text" @bind="editProduct.Description" />
-        <input type="number" @bind="editProduct.Price" />
+        <InputNumber @bind-Value="editProduct.Price" placeholder="Price" />
         <input type="text" @bind="editProduct.ImageUrl" />
 
         <button type="submit">Save Changes</button>
